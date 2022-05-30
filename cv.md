@@ -35,3 +35,10 @@ function bmi(weight, height) {
 ### **Experience**
 I made the site by the Web Developer course on Udemy. Link to [GitHub Repositories](https://github.com/wowblvck/pulse)
 ***********
+### **Education & Courses**
+* **Education:** Kuban State Technological University. Mechanical Engineering.
+* **Courses:**
+  + Web Design in Figma. Basics UX/UI design on practice. **Author:** Evgen Marfel. **Platform:** Udemy.
+  + Web Developer 2022 (*in progress*). **Author:** Ivan Petrechenko. **Platform:** Udemy.
+* Frontend Developer School **The Rolling Scopes School**. Course - JavaScript/Front-end. Stage 0 (*in progress*).
+***********
