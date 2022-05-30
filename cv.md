@@ -42,3 +42,7 @@ I made the site by the Web Developer course on Udemy. Link to [GitHub Repositori
   + Web Developer 2022 (*in progress*). **Author:** Ivan Petrechenko. **Platform:** Udemy.
 * Frontend Developer School **The Rolling Scopes School**. Course - JavaScript/Front-end. Stage 0 (*in progress*).
 ***********
+### **Language**
+* **Russian:** Native.
+* **English:** B2.
+***********
