@@ -4,3 +4,8 @@
 # Indar Basto
 ## Beginner Frontend Developer - RS School Student
 ***********
+### **Contact Information**
+| Location | Phone | Telegram | E-mail | LinkedIn | GitHub |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| *Krasnodar, Russia* | *+79181712712* | *@wowblvck* | *indar.basto@gmail.com* | *[LinkedIn](https://www.linkedin.com/in/ibasto/)* | *[GitHub](https://github.com/wowblvck)* |
+***********
