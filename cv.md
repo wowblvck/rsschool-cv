@@ -32,3 +32,6 @@ function bmi(weight, height) {
 }
 ```
 ***********
+### **Experience**
+I made the site by the Web Developer course on Udemy. Link to [GitHub Repositories](https://github.com/wowblvck/pulse)
+***********
