@@ -16,3 +16,8 @@ Graduated from Kuban State Technological University with a degree in Mechanical 
 
 I came to RSS because I want to get knowledge in programming, as it seems to me that I am not doing my job.
 ***********
+### **Skills**
+| HTML/CSS | Git | Figma |
+| :--------: | :--------: | :--------: |
+| *Basic* | *Basic* | *Medium* |
+***********
