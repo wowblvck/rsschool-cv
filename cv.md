@@ -9,3 +9,10 @@
 | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | *Krasnodar, Russia* | *+79181712712* | *@wowblvck* | *indar.basto@gmail.com* | *[LinkedIn](https://www.linkedin.com/in/ibasto/)* | *[GitHub](https://github.com/wowblvck)* |
 ***********
+### **About Me**
+At school I played GTA SA Multiplayer and at the same time wrote servers in the PAWN programming language (similar to C).
+
+Graduated from Kuban State Technological University with a degree in Mechanical Engineering. I have been working for 7 years in the field of design and development of equipment for nuclear power plants.
+
+I came to RSS because I want to get knowledge in programming, as it seems to me that I am not doing my job.
+***********
