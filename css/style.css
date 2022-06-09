@@ -16,25 +16,143 @@ body {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
-.nav_list {
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
   list-style: none;
+  margin: 0;
+  padding: 15px 40px 0;
+}
+
+.nav-link {
+  padding: 0 10px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+  background: linear-gradient(to right, #64c8c8, #64c8c8), linear-gradient(to right, red, #ff00b4, #0064c8);
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.nav-link:hover {
+  background-size: 0 3px, 100% 3px;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px 0;
+}
+
+.section-profile-picture {
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+.section-profile-title {
+  width: 60%;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.main-title {
+  margin: 0 auto;
+  font-size: 6rem;
+  line-height: 80px;
+}
+
+.section-subtitle {
+  margin: 15px 0 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  background: linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-description {
+  margin: 10px 0 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.section-location {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.section-location img {
+  width: 24px;
+  height: 24px;
+}
+
+.section-location span {
+  margin-left: 7px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.links-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+  list-style: none;
+  margin-top: 20px;
   padding: 0;
 }
 
-.nav_link {
-  position: relative;
-  padding: 14px 10px;
+.links-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.links-item {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.links-item:ntn-last-child(-n+3) {
+  text-decoration: underline;
+}
+
+.links-link {
+  padding: 0 7px 0;
+  font-size: 16px;
+  font-weight: 400;
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 700;
   color: #222222;
+}
+
+.links-line {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
