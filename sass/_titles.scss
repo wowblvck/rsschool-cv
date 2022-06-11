@@ -1,16 +1,42 @@
-.section-profile-title {
-    width: 60%;
-}
-
 .section-title {
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 30px;
 }
 
 .main-title {
     margin: 0 auto;
     font-size: 6rem;
     line-height: 80px;
+}
+
+.profile-subtitle {
+    margin: 15px 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    background: 
+        linear-gradient(
+            135deg, 
+            #FF26B2 0%, 
+            #851BD9 64.06%, 
+            #3F0FFF 100%
+        );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.experience-position {
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: $color-year;
+}
+
+.experience-company {
+    font-weight: 300;
+    font-size: 16px;
+    color: $color-year;
 }
