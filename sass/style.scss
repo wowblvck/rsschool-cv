@@ -1,0 +1,68 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 630px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 330px;
+}
+
+@import 'variables'; //Variables for Fast Use
+@import 'titles'; //All styles for Titles
+@import 'section'; //All styles for Sections
+@import 'navigation'; //All styles for Navigation Bar
+@import 'profile'; //All style for Profile
+@import 'summary'; //All styles for Summary
+@import 'skills'; //All styles for Skills
+@import 'experience'; //All styles for Experience
+@import 'code'; //All styles for Code Example
+@import 'language'; //All styles for Language
+@import 'education'; //All styles for Education
+@import 'projects'; //All styles for Projects
+@import 'footer'; //All styles for Footer
