@@ -32,10 +32,16 @@ body {
 }
 
 .left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 630px;
 }
 
 .right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 330px;
 }
 
@@ -76,8 +82,21 @@ body {
   color: #999999;
 }
 
+.education-position {
+  margin-right: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #999999;
+}
+
+.education-company {
+  font-weight: 300;
+  font-size: 16px;
+  color: #999999;
+}
+
 .section-left {
-  padding: 10px 20px 30px;
+  padding: 10px 20px;
 }
 
 .section-left:last-child {
@@ -306,9 +325,56 @@ body {
 .code {
   padding: 5px;
   margin-top: 10px;
+  font-size: 16px;
   font-family: 'Space Mono', monospace;
   background-color: rgba(210, 210, 210, 0.35);
   border-radius: 10px;
   color: black;
+}
+
+.language-list {
+  padding: 0;
+  list-style: none;
+}
+
+.language-list li {
+  margin-bottom: 5px;
+}
+
+.education-description {
+  margin: 10px auto 25px;
+}
+
+.education-description:last-child {
+  margin-bottom: 0;
+}
+
+.education-year {
+  font-size: 16px;
+  font-weight: 400;
+  background: linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.education-info {
+  margin: 5px auto 0;
+}
+
+.education-list {
+  margin: 0;
+  padding: 5px 0 0 20px;
+  list-style-type: circle;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.education-list li {
+  margin-top: 7px;
+}
+
+.education-line {
+  border: 0.5px solid #999999;
 }
 /*# sourceMappingURL=style.css.map */

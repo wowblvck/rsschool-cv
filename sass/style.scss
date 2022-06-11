@@ -32,10 +32,16 @@ body {
 }
 
 .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 630px;
 }
 
 .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 330px;
 }
 
@@ -48,3 +54,5 @@ body {
 @import 'skills'; //All styles for Skills
 @import 'experience'; //All styles for Experience
 @import 'code'; //All styles for Code Example
+@import 'language'; //All styles for Language
+@import 'education'; //All styles for Education
