@@ -1,0 +1,19 @@
+.github-link {
+    display: flex;
+    align-items: center;
+    a {
+        color: $link-color;
+    }
+    span {
+        margin-left: 10px;
+    }
+}
+
+.github-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-logo {
+    width: 150px;
+}

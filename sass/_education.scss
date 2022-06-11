@@ -1,0 +1,40 @@
+.education-description {
+    margin: 10px auto 25px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.education-year {
+    font-size: 16px;
+    font-weight: 400;
+    background: 
+        linear-gradient(
+            135deg,
+            #FF26B2 0%,
+            #851BD9 64.06%,
+            #3F0FFF 100%
+        );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.education-info {
+    margin: 5px auto 0;
+}
+
+.education-list {
+    margin: 0;
+    padding: 5px 0 0 20px;
+    list-style-type: circle;
+    font-size: 14px;
+    font-weight: 400;
+    li {
+        margin-top: 7px;
+    }
+}
+
+.education-line {
+    border: 0.5px solid #999999;
+}
