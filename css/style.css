@@ -35,6 +35,8 @@ body {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .left-side {
@@ -228,6 +230,7 @@ body {
 .skill-wrapper {
   width: 300px;
   margin: 10px auto;
+  padding: 0;
 }
 
 .skill {
@@ -393,8 +396,8 @@ body {
 
 .projects-list p {
   margin-top: 5px;
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .projects-list li {
@@ -417,6 +420,24 @@ body {
 .projects-icon {
   width: 24px;
   height: 24px;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+}
+
+.github-link a {
+  color: #222222;
+}
+
+.github-link span {
+  margin-left: 10px;
+}
+
+.github-icon {
+  width: 32px;
+  height: 32px;
 }
 
 .footer-logo {
