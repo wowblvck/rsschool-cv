@@ -34,14 +34,14 @@ body {
 .left-side {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     width: 630px;
 }
 
 .right-side {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     width: 330px;
 }
 
@@ -56,3 +56,4 @@ body {
 @import 'code'; //All styles for Code Example
 @import 'language'; //All styles for Language
 @import 'education'; //All styles for Education
+@import 'projects'; //All styles for Projects

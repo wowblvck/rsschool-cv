@@ -34,14 +34,14 @@ body {
 .left-side {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
   width: 630px;
 }
 
 .right-side {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
   width: 330px;
 }
 
@@ -333,6 +333,7 @@ body {
 }
 
 .language-list {
+  margin-top: 10px;
   padding: 0;
   list-style: none;
 }
@@ -376,5 +377,39 @@ body {
 
 .education-line {
   border: 0.5px solid #999999;
+}
+
+.projects-list {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.projects-list p {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.projects-list li {
+  margin-bottom: 20px;
+}
+
+.projects-name {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.projects-link {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #222222;
+}
+
+.projects-icon {
+  width: 24px;
+  height: 24px;
 }
 /*# sourceMappingURL=style.css.map */
