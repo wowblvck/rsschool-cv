@@ -23,9 +23,13 @@ body {
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 @import 'variables'; //Variables for Fast Use
+@import 'titles'; //All style for Titles
+@import 'section'; //All style for Sections
 @import 'navigation'; //Styles for Navigation Bar
 @import 'profile'; //Profile Section
+@import 'summary'; //All styles for Summary
+@import 'skills';

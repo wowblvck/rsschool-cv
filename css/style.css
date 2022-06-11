@@ -23,7 +23,41 @@ body {
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.section-profile-title {
+  width: 60%;
+}
+
+.section-title {
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.main-title {
+  margin: 0 auto;
+  font-size: 6rem;
+  line-height: 80px;
+}
+
+.section-left {
+  width: 65%;
+  padding: 10px 20px 0;
+}
+
+.section-right {
+  padding: 10px 0 0 30px;
+}
+
+.section-profile {
+  display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px 0;
 }
 
 .nav-list {
@@ -54,34 +88,10 @@ body {
   background-size: 0 3px, 100% 3px;
 }
 
-.section-profile {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  padding: 40px 20px 0;
-}
-
 .section-profile-picture {
   width: 250px;
   height: 250px;
   border-radius: 50px;
-}
-
-.section-profile-title {
-  width: 60%;
-}
-
-.section-title {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 18px;
-}
-
-.main-title {
-  margin: 0 auto;
-  font-size: 6rem;
-  line-height: 80px;
 }
 
 .section-subtitle {
@@ -137,10 +147,10 @@ body {
 .links-item {
   display: flex;
   align-items: center;
-  padding: 3px;
+  padding: 0 0 5px;
 }
 
-.links-item:ntn-last-child(-n+3) {
+.links-item:nth-last-child(-n+3) {
   text-decoration: underline;
 }
 
@@ -152,7 +162,74 @@ body {
   color: #222222;
 }
 
-.links-line {
-  text-decoration: underline;
+.summary-description {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.skill-wrapper {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.skill {
+  margin-bottom: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.skill p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1716;
+  margin: 0;
+}
+
+.skill:before {
+  width: 100%;
+  height: 7px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #959595;
+  bottom: 0;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 7px;
+  background: linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%);
+  display: block;
+  position: relative;
+}
+
+.skill-bar span {
+  position: absolute;
+  border-top: 7px solid #f4392f;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 400;
+}
+
+.skill-level1 {
+  width: 70%;
+}
+
+.skill-level2 {
+  width: 40%;
+}
+
+.skill-level3 {
+  width: 80%;
+}
+
+.skill-count {
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */
