@@ -31,6 +31,12 @@ body {
     justify-content: flex-start;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 .left-side {
     display: flex;
     flex-direction: column;
@@ -57,3 +63,4 @@ body {
 @import 'language'; //All styles for Language
 @import 'education'; //All styles for Education
 @import 'projects'; //All styles for Projects
+@import 'footer'; //All styles for Footer
