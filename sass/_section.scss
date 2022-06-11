@@ -1,6 +1,8 @@
 .section-left {
-    width: 65%;
-    padding: 10px 20px 0;
+    padding: 10px 20px 30px;
+    &:last-child {
+        padding-bottom: 0;
+    }
 }
 
 .section-right {
