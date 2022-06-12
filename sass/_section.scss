@@ -1,12 +1,9 @@
-.section-left {
+.section {
+    width: 100%;
     padding: 10px 20px;
     &:last-child {
         padding-bottom: 0;
     }
-}
-
-.section-right {
-    padding: 10px 0 0 30px;
 }
 
 .section-profile {
