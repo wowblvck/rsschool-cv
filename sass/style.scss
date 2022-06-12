@@ -20,34 +20,19 @@ body {
     margin: 0 auto;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
 .main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
 .left-side {
-    display: flex;
     flex-direction: column;
     justify-content: start;
     width: 630px;
 }
 
 .right-side {
-    display: flex;
     flex-direction: column;
     justify-content: start;
     width: 330px;
@@ -66,3 +51,5 @@ body {
 @import 'education'; //All styles for Education
 @import 'projects'; //All styles for Projects
 @import 'footer'; //All styles for Footer
+
+@import 'media/_max_width_575';
