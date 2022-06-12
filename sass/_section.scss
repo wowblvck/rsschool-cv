@@ -6,7 +6,10 @@
 }
 
 .section-right {
-    padding: 10px 0 0 30px;
+    padding: 10px 20px;
+    &:last-child {
+        padding-bottom: 0;
+    }
 }
 
 .section-profile {

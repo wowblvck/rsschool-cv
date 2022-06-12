@@ -112,7 +112,11 @@ body {
 }
 
 .section-right {
-  padding: 10px 0 0 30px;
+  padding: 10px 20px;
+}
+
+.section-right:last-child {
+  padding-bottom: 0;
 }
 
 .section-profile {
@@ -228,7 +232,7 @@ body {
 }
 
 .skill-wrapper {
-  width: 300px;
+  width: auto;
   margin: 10px auto;
   padding: 0;
 }
