@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'IBM Plex Sans';
     src: local('IBMPlexSans-Light'),
-        url('../assets/fonts/IBMPlexSans-Light.ttf') format('ttf');
+        url('../assets/fonts/IBMPlexSans-Light.ttf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'IBM Plex Sans';
     src: local('IBMPlexSans-Regular'),
-        url('../assets/fonts/IBMPlexSans-Regular.ttf') format('ttf');
+        url('../assets/fonts/IBMPlexSans-Regular.ttf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'IBM Plex Sans';
     src: local('IBMPlexSans-Bold'),
-        url('../assets/fonts/IBMPlexSans-Bold.ttf') format('ttf');
+        url('../assets/fonts/IBMPlexSans-Bold.ttf') format('opentype');
     font-weight: 700;
     font-style: normal;
 }
